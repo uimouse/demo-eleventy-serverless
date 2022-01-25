@@ -1,0 +1,17 @@
+{
+  "name": "eleventy-cloud",
+  "version": "1.0.0",
+  "description": "Render some of your Eleventy templates in a serverless function.",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "build-production": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "1.0.0-beta.7",
+    "@netlify/functions": "^0.7.2"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+_site
+.cache
+netlify/functions/serverless/*
+!netlify/functions/serverless/index.js
+netlify/functions/dynamic/*
+!netlify/functions/dynamic/index.js
